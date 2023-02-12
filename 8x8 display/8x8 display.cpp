@@ -67,7 +67,7 @@ void Draw()
         system("cls");
         cout << "SET" << endl << endl << endl;
 
-        cout << "input like this 00000000, no more then 8 and no less.\n It is row 1 - on, 0 - of \n If 01000000 in row 1 column 1 - on, output: #@######" << endl;
+        cout << "input like this 00000000, no more then 8 and no less.\n It is row 1 - on, 0 - of \n If 01000000 in row 1 column 1 - on, output: - # - - - - -" << endl;
         for (int row = 0; row < 8; row++) 
         {
             printf("row %d: ",row);
@@ -108,7 +108,7 @@ void Set()
 {
     cout << "SET" << endl << endl << endl;
 
-    cout << "input like this 00000000, no more then 8.\n It is row 1 - on, 0 - of \n If 01000000 in row 1 column 1 - on, output: *#******" << endl;
+    cout << "input like this 00000000, no more then 8.\n It is row 1 - on, 0 - of \n If 01000000 in row 1 column 1 - on, output: - # - - - - -" << endl;
     for (int row = 0; row < 8; row++)
     {
         printf("row %d: ", row);
